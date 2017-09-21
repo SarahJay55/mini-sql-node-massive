@@ -1,1 +1,3 @@
-SELECT * FROM airplanes;
+SELECT * FROM airplanes
+where PassengerCount > $1;
+
